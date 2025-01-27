@@ -4,6 +4,12 @@
 Rumah Sakit Skena adalah sebuah aplikasi web sederhana yang dirancang untuk membantu pengelolaan data pasien dan menyediakan informasi statistik dalam bentuk grafik. Aplikasi ini dirancang untuk mempermudah admin dalam memantau dan mengelola data yang relevan.
 
 
+## Instalasi
+1. git clone
+2. composer install
+3. php artisan migrate
+4. php artisan db:seed --class=UserSeeder
+
 ```
 Untuk Login Admin Page
 Email = admin@gmail.com
