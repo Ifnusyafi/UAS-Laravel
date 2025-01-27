@@ -5,11 +5,14 @@ Rumah Sakit Skena adalah sebuah aplikasi web sederhana yang dirancang untuk memb
 
 
 ## Instalasi
+
 1. git clone
-2. composer install
-3. php artisan migrate
-4. php artisan db:seed --class=UserSeeder
-5. php artisan ser
+2. copy .env.example .env
+3. php artisan key:generate
+4. composer install
+5. php artisan migrate
+6. php artisan db:seed --class=UserSeeder
+7. php artisan ser
 
 ```
 Untuk Login Admin Page
